@@ -26,7 +26,8 @@ Talking about the best location for a coffee shop, we would ideally look for som
  
 ## MTA Subway Station Data Analysis!
  We obtained the MTA Data sets from the website and used the pandas module in Python to convert them into data frames for easy analysis. After munging and parsing the data, we calculated the total exits from each of the stations between 11 AM and 3 PM for two years- 2015 and 2016. 
- file:///home/nandini/Pictures/stations.png
+ 
+ ![Trafficked Stations](file:///home/nandini/Pictures/stations.png)
  
  We also calculated the stations with the highest upward trending growth in traffic between the two years.
  file:///home/nandini/Pictures/growth.png
