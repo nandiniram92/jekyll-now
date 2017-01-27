@@ -27,29 +27,32 @@ Talking about the best location for a coffee shop, we would ideally look for som
 ## MTA Subway Station Data Analysis!
  We obtained the MTA Data sets from the website and used the pandas module in Python to convert them into data frames for easy analysis. After munging and parsing the data, we calculated the total exits from each of the stations between 11 AM and 3 PM for two years- 2015 and 2016. 
  
- file:///home//nandini//Pictures//stations.png
- 
+![Trafficked Stations](http://i.imgur.com/UsqMJWM.png) 
+
  We also calculated the stations with the highest upward trending growth in traffic between the two years.
- file:///home/nandini/Pictures/growth.png
+ ![Highest Growth](http://i.imgur.com/fkw6mdN.png)
  
  We cross referenced both the lists and came up with top 24 stations that would be ideal in terms of traffic.
- file:///home/nandini/Pictures/finallist.png
+ ![MTA Data Analysis-Results](http://i.imgur.com/oFluylF.png) 
+ 
  
 ## Census Data Analysis
  To further narrow down on the best possible location for our client, we introduced the demographic perspective and retrieved the census data for every tract in New York through the bureau's ftp server, and then narrowed down the data by geolocating the areas near the filtered stations from the previous analysis. With our census tracts and their proportions within the given radii identified, we were able to pull our chosen metrics from the Census’ API and extrapolate them to accurately reflect the socio-demographic characteristics of those most likely to frequent each terminal.
  
- file:///home/nandini/Pictures/censustract.png
+ ![Census Tract](http://i.imgur.com/LjXB79q.png)
  
- file:///home/nandini/Pictures/censustract.png
+ ![Census data](http://i.imgur.com/3OMLkrk.png)
  
 ## Market Research and Final Analysis!
  We analysed the census data that we pulled out, by referencing the market data from Small-Business development Community Network and the Coffee Shop Business Overview report. We allocated the weights to each of the factors in the population description - The Well educated, The High-Earners and the Singles- that have been known to purchase a lot of coffee! We also included a factor to weigh in the competitive angle- taking into account other coffee shops nearby so that our client stands out!
+ 
  Voila, here is our final scoreboard!
- file:///home/nandini/Pictures/scoreboard.png
+ 
+ ![Scoreboard](http://i.imgur.com/HprwJz7.png) 
  
  Based on the final results, we presented our client with an accurate visualization of our final scoreboard-
- file:///home/nandini/Pictures/comprehensive.png
  
+ ![Comprehensive List](http://i.imgur.com/L1Kc4JT.png) 
  
 ## Our Recommendations- Look out, Starbucks!
  ![Recommendation#1](https://s-media-cache-ak0.pinimg.com/564x/3a/6a/16/3a6a1689241b0ae920e4f2d0160db57f.jpg)
